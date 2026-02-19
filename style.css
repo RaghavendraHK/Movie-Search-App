@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.app-container {
+    width: 380px;
+    background: #1f2933;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #b0bec5;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #ff9800;
+    color: black;
+    font-weight: bold;
+}
+
+.search-box button:hover {
+    background: #ffc107;
+}
+
+.movie-card {
+    margin-top: 10px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-card h2 {
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #e0e0e0;
+}
